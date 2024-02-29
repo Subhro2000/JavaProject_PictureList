@@ -280,15 +280,12 @@ public class LabeledPictureList extends javax.swing.JFrame
             {
                 LabeledPicture lb = loadRecord(dis);
                 model.addElement(lb);
-//                System.out.println(lb.getImgName());
             }
             dis.close();
         } catch (Exception ex)
         {
             System.out.println("Can't load the list");
         }
-        
-
     }
     
                                         
