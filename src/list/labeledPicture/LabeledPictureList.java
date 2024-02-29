@@ -14,6 +14,7 @@ import java.util.logging.Level;
 import java.util.logging.Logger;
 import javax.swing.DefaultListModel;
 import javax.swing.JFileChooser;
+import javax.swing.JOptionPane;
 import javax.swing.ListSelectionModel;
 import javax.swing.filechooser.FileFilter;
 import javax.swing.filechooser.FileNameExtensionFilter;
@@ -241,6 +242,7 @@ public class LabeledPictureList extends javax.swing.JFrame
         {
         }
         model.addElement(new LabeledPicture(name, imgFileByteArray));
+        JOptionPane.showMessageDialog(this, "Picture Added");
         
     }//GEN-LAST:event_btnAddActionPerformed
 
